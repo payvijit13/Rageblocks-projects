@@ -1,0 +1,31 @@
+{
+  "parent":"rageblock:root",
+  "display": {
+    "icon": {
+      "item": "rageblock:rage_block"
+    },
+    "title": {
+      "text": "what's the use?"
+    },
+    "description": {
+      "text": "Obtain the Rage Block,what could it be for?"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_rage_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rageblock:rage_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

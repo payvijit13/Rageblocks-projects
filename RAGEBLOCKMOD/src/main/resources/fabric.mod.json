@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rageblock",
+  "version": "1.1.1",
+  "name": "RAGEBLOCKS",
+  "description": "RAGEBLOCKS is designed to add absolutely nothing",
+  "authors": [
+    "payvijit13"
+  ],
+  "license": "ARR",
+  "icon": "assets/rageblock/icon/icon.png",
+  "contact": {
+    "homepage": "https://modrinth.com/mod/rageblocks"
+  },
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.rageblocks.RageBlockClient"
+    ],
+    "main": [
+      "com.rageblocks.RageBlockMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}

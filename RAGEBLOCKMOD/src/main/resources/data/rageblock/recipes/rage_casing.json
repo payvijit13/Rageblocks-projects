@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RPR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "rageblock:pure_rage"
+    },
+    "P": {
+      "tag": "minecraft:stripped_logs"
+    }
+  },
+  "result": {
+    "item": "rageblock:rage_casing",
+    "count": 1
+  }
+}

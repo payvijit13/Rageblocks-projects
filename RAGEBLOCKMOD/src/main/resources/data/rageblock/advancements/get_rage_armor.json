@@ -1,0 +1,76 @@
+{
+  "parent": "rageblock:root",
+  "display": {
+    "icon": {
+      "item": "rageblock:rage_helmet"
+    },
+    "title": {
+      "text": "Rage Armor"
+    },
+    "description": {
+      "text": "Obtain any piece of Rage armor"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rage_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rageblock:rage_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "rage_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rageblock:rage_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "rage_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rageblock:rage_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "rage_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rageblock:rage_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rage_helmet",
+      "rage_chestplate",
+      "rage_leggings",
+      "rage_boots"
+    ]
+  ]
+}

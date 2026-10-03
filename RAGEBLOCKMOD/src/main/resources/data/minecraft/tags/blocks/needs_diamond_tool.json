@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "rageblock:rage_ore",
+    "rageblock:rage_block",
+    "rageblock:purifier"
+  ]
+}

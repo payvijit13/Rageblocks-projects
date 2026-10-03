@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rageblock:rage_block"
+    }
+  ],
+  "result": {
+    "item": "rageblock:pure_rage",
+    "count": 9
+  }
+}

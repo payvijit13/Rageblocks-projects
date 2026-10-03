@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "rageblock:pure_rage"
+    }
+  },
+  "result": {
+    "item": "rageblock:rage_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "rageblock:rage_block"
+    },
+    "title": {
+      "text": "RageBlocks"
+    },
+    "description": {
+      "text": "Welcome to the world of Rage."
+    },
+    "background": "rageblock:textures/gui/advancements/background.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

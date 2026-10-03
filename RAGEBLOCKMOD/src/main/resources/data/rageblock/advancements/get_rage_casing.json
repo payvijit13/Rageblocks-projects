@@ -1,0 +1,32 @@
+{
+  "parent": "rageblock:root",
+  "criteria": {
+    "has_rage_casing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rageblock:rage_casing"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "rageblock:rage_casing"
+    },
+    "title": {
+      "text": "50% there!"
+    },
+    "description": {
+      "text": "Create your first Rage Casing."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+}
